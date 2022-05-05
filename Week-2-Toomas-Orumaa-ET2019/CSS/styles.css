@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.movie-card{
+    display: flex;
+    align-items: center;
+    height: 40rem;
+    margin-top: 5rem;
+    background: linear-gradient(to right, rgba(3, 45, 87, 0.904) 150px, rgba(10.5, 31.5, 52.5, 0.50) 100%),url('../images/background_avengers.jpg');
+    background-size: cover;
+
+}
+.movie-poster-container {
+    height: 85%;
+    width:30%;
+    text-align: center;
+}
+.movie-poster{
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 2rem;
+
+}
+.movie-info-container {
+    height: 100%;
+    width: 70%;
+    color: white;
+    padding-top: 4rem;
+}
+.movie-title-info{
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+.movie-genres{
+    margin-top: 1.2rem;
+}
+.movie-rating{
+    border: 1px solid gray;
+    color: gray;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.lenght{
+    margin-left: 1rem;
+    letter-spacing: 0.1rem;
+}
+.lenght::before{
+    content:"\2022";
+}
+.movie-info-actions{
+    font-size: 1.1rem;
+
+}
+.movie-info-actions ul {
+    list-style: none;
+    margin-top: 1rem;
+
+}
+.movie-info-actions ul li {
+    display: inline-block;
+    margin-right: 2rem;
+    height: 50px;
+    width: 50px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+.movie-info-actions ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.movie-info-quote{
+    font-style: italic;
+    color: rgba(128, 128, 128, 0.76);
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+.movie-info-overview-title{
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+
+}
+.movie-info-people{
+    margin-top: 2rem;
+    list-style: none;
+
+
+}
+.movie-info-people li {
+    display: inline-block;
+    margin-right: 10rem;
+
+}
+.movie-info-people li p:first-child{
+    font-weight: 700;
+}
+footer{
+    margin-top: 2rem;
+    color: #777;
+    text-align: center;
+
+}
+footer  ul li {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+}
+footer ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:  1.5rem;
+    color: #777;
+}
